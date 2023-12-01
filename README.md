@@ -1,7 +1,8 @@
 # Whadaya
 ## Description
 Social media-type platform that allows users to post a review on their choice of either books, movies, TV shows, or music. The user will be able to browse through and see other reviews where they'll be able to either like and comment.
-## Link/Preview
+## Link
+https://14-mvc-tech-blog-production-c103.up.railway.app/login
 
 ## Download
 no installation necessary
