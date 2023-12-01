@@ -1,0 +1,33 @@
+[
+    {
+        "message": "Nice, i gotta check this movie out",
+        "user_id": 2,
+        "review_id": 1
+
+    },
+    {
+        "message": "Def gonna watch this l8r",
+        "user_id": 3,
+        "review_id": 2
+
+    },
+    {
+        "message": "Not a huge fan of Christopher but this looks funny",
+        "user_id": 3,
+        "review_id": 3
+
+    },
+    {
+        "message": "Main character looks like my buddy Trever",
+        "user_id": 1,
+        "review_id": 2
+
+    },
+    {
+        "message": "I wanna go home...",
+        "user_id": 5,
+        "review_id": 1
+
+    }
+
+]

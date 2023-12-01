@@ -1,0 +1,37 @@
+<div class="row mb-4 review">
+
+  <div class="col-md-10 border border-secondary p-4 rounded bg-light">
+    <h5>{{review.category.name}}</h5>
+    <h2>
+      
+      <a href="/review/{{review.id}}">{{review.title}}</a>
+    </h2>
+  
+    <p class="username text-uppercase" style="margin-bottom: 0px;">@{{user.username}}</p>
+    <p class="date-small">{{review.createdAt}}</p>
+    <p class="serif">
+      {{review.message}}
+    </p>
+
+    <button type="button" class="btn btn-outline-danger"id="like-button">{{review.likes}} ♡</button>
+  {{!-- <button type="button" class="btn btn-outline-dark"id="comment-button" style="hidden"> Comment</button> --}}
+    <form>
+      <textarea class="form-control" id="comment-text" rows="3" ></textarea>
+      <button type="button" class="btn btn-outline-dark" id="submit-button" >Comment</button>
+    </form>
+     
+  </div>
+  
+</div>
+
+   {{#each review.comments as |comment|}}
+    <div class="container border border-secondary p-2 mb-4 rounded bg-light">
+      <p class="username">{{comment.user.username}} Said: </p>
+
+      <p> {{comment.message}}
+      </p>
+    </div>
+    {{/each}}
+
+</div>
+<script src="/js/single-review.js"></script>
